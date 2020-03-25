@@ -1,5 +1,6 @@
 // cara untuk membuat object pada javascript
 // 1. Object Literal
+// kelemahan = tidak cocok untul objek yang banyak
 const karyawan = {
   name: 'irfan fauzi',
   energy: 10,
@@ -13,6 +14,7 @@ const karyawan = {
   }
 }
 // 2. function declaration
+// kelemahannya = dibalik layar, objeck nya tetap dibuat berulang, sama saja dengan object literar (menggunakan banyak memory) 
 function createObjectKaryawan(name, energy) {
   // object kosong
   let karyawan = {}
