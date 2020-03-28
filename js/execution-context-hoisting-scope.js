@@ -28,7 +28,16 @@ var nama = 'fauzi';
 var umur = 73;
 
 function sayHello() {
-  console.log(`halo nama saya ${nama}, saya berusia ${umur}`);
+    console.log(`halo nama saya ${nama}, saya berusia ${umur}`);
+    // INI ADALAH LOCAL CREATION dan EXECUTION CONTEXT
+    // pada saat program menjalankan function -> seolah - olah function tsb menjalankan execution context sendiri,
+    // Function membuat => execution context sendiri (dalam ruang lingkup function tsb)
+    // function (){
+    //  berisi : HOISTING (local / hanya didalam area function)
+    //  1.Creation phase 
+    //  2.Execution phase
+    // }
+    // """""""bedanya LOCAL EXECUTION"""""""""""""
+    // selain dapat mengambil Oject windows, ia dapat mengakses Arguments
 
 }
-// jika didalam
