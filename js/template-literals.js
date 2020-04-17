@@ -57,8 +57,36 @@
 
 // let body = document.querySelector('body');
 // body.innerHTML = el;
-const nama = 'irfan fauzi';
-const umur = 90;
+// const nama = 'irfan fauzi';
+// const umur = 90;
 
-let sayHello = () => `hallo nama saya ${nama} ,usia saya ${umur} tahun`;
-console.log(sayHello());
+// let sayHello = () => `hallo nama saya ${nama} ,usia saya ${umur} tahun`;
+// console.log(sayHello());
+
+// contoh lain
+// let a = 10;
+// let b = 20;
+// let kali = () => `hasil dari a kali b adalah ${ b * a }`;
+// console.log(kali());
+
+// bisa juga memanggil function
+// let awas = 'awas'
+// console.log(`ini adalah alert ${alert(awas)} ${awas} `);
+
+// bisa juga diisi operator ternari
+// let x = 11;
+// let genap = 'genap';
+// let ganjil = 'ganjil';
+// console.log(`operator ternari ${(x % 2 == 0) ? genap : ganjil }  `);
+let data = {
+    nama: 'irfan',
+    umur: 89,
+    nip: '823842834',
+}
+const el = `<div class="data">
+            <h2>berikut adalah terpuji</h2>
+            <p>nama : ${data.nama}</p>
+            <p>umur : ${data.umur}</p>
+            <p>nip : ${data.nip}</p>
+            </div>`;
+document.body.innerHTML = el;
